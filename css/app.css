@@ -1,0 +1,39 @@
+.pontos {
+    position: absolute;
+    z-index: 3;
+    width: max-content;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.terreno {
+    width: 700px;
+    height: 500px;
+    margin: 4rem auto 0 auto;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(98, 156, 10);
+    overflow: hidden;
+}
+
+.snake {
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    position: absolute;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.comida {
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    position: absolute;
+    background-color: yellow;
+    border: 1px solid black;
+}
